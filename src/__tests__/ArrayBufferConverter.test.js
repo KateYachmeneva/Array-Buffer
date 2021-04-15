@@ -1,4 +1,4 @@
-import ArrayBufferConverter from '../js/User';
+import ArrayBufferConverter from '../js/ArrayBufferConverter';
 import getBuffer from '../js/getBuffer';
 
 test('Метод load подгружает буфер и сохраняет его в свойсво array', () => {
