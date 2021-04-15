@@ -8,12 +8,6 @@ export default class ArrayBufferConverter {
   }
 
   toString() {
-    const container = [];
-    for (let i = 0; i < [...this.array].length; i += 1) {
-      const item = String.fromCharCode(this.array[i]);
-
-      container.push(item);
-    }
-    return container.join('');
+    return String.fromCharCode(...this.array);
   }
 }
